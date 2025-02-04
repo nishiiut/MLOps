@@ -1,1 +1,3 @@
 # MLOps
+Model Comparison:
+This repository contains two versions of a linear regression model built on the “sampregdata” dataset, both available on the main branch. The original model, implemented in train_single_model.py, uses a single predictor—the feature with the highest individual correlation to the target—and achieved an R² of approximately 0.2750. In contrast, the updated model, implemented in train_two_feature_model.py, incorporates a pair of features chosen by evaluating all possible two-feature combinations, resulting in an improved R² of approximately 0.5300. The two-feature model captures more of the variance in the target variable, offering better predictive performance, while the single-feature model remains available for historical reference.
